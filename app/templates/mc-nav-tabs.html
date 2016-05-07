@@ -1,0 +1,5 @@
+    <ul class="nav nav-tabs">
+      <li ng-repeat='item in items' role="presentation" class='{{ item.status }}' >
+      	<a href='{{ item.href }}' ng-click='tabClick(item)'>{{ item.label }}</a>
+      </li>
+    </ul>
